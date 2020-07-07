@@ -2,7 +2,39 @@ body{
     background-color: whitesmoke;
 }
 
-.column {
+.cols{
+    display: flex;
+    margin: auto;
+}
+
+.column{
+    padding: 10px;
+    margin: 2px;
+    border: 2px solid blue;
+}
+
+/* .column {
     width: 33.33%;
     float: left;
+  } */
+
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    .cols{
+        display: block;
+    }
+}
+/* @media screen and (min-width: 768px) {
+  body {
+    background-color: grey;
   }
+  .column {
+    width: 30%;
+    float: left;
+    padding: 2px;
+  } */
+}
+  
