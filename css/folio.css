@@ -1,3 +1,8 @@
 body{
-    background-color: antiquewhite;
+    background-color: whitesmoke;
 }
+
+.column {
+    width: 33.33%;
+    float: left;
+  }
