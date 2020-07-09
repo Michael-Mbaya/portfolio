@@ -1,25 +1,69 @@
 body{
-    background-color: whitesmoke;
+    background-color:#faf0e6;
+    opacity: 1;
     margin: 0px 2px 0px 2px;
     top: 0px;
     height: 100%;
     width: 100%;
 }
 
-h1{
+.nav{
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.nav a:hover {
+  background-color: green;
+  color: black;
+}
+
+.nav a:active {
+  background-color:lightgreen;
+  color: black;
+}
+
+@media screen and (max-width: 600px) and (min-width: 200px) {
+  .nav{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+  }
+} 
+
+.name{
+  position: relative;
+}
+
+.name h1{
   text-align: center;
   font-size: 40px;
   text-decoration: underline;
   margin: 5px 5px 15px 5px;
 }
 
-h2{
-  margin: 15px;
+h3,h2,p{
+  margin: 5px;
+  padding: 0px;
 }
 
-p{
+ul,ol{
   margin: 5px;
-  padding: 5px;
+  padding-left: 20px;
+}
+
+li{
+  margin: 0px;
+  padding:0px;
 }
 
 .sect2{
@@ -34,8 +78,8 @@ p{
   float: left;
   justify-content: center;
   align-items: center;
-  height: 400px;
-  width: 35%;
+  height: auto;
+  width: 50%;
 }
 
 #me-pic{
@@ -44,10 +88,11 @@ p{
 }
 
 .intro-texts{
-  width: 65%;
+  width: 50%;
+  text-align: justify;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 720px) and (min-width: 200px) {
   .sect2{
       display: flex;
       flex-direction: column;
@@ -89,7 +134,7 @@ p{
 
 }
  
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 720px) and (min-width: 200px) {
   .sect3{
       display: flex;
       flex-direction: column;
@@ -103,3 +148,4 @@ p{
     align-self: center;
   }
 } 
+
