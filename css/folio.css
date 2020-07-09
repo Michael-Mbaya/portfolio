@@ -1,44 +1,82 @@
 body{
     background-color: whitesmoke;
+    margin: 0px 2px 0px 2px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
 }
 
 h1{
   text-align: center;
   font-size: 40px;
   text-decoration: underline;
+  margin: 5px 5px 15px 5px;
 }
 
-.projects{
+h2{
+  margin: 15px;
+}
+
+p{
+  margin: 5px;
+  padding: 5px;
+}
+
+.sect2{
+  overflow: hidden;
+  display: flex;
+  margin: 5px;
+  align-items: stretch;
+}
+
+span{
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 35%;
+}
+
+#me-pic{
+  height: 95%;
+  width: 95%;;
+}
+
+.intro-texts{
+  width: 65%;
+}
+
+.sect3{
     display: flex;
     margin: 5px;
+    flex-direction: row;
     justify-content: center;
+    align-items: stretch;
 }
 
 .column{
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid black;
-    float: left;
-    width: 30%;
-    text-align: justify;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+  /* border-style: none; */
+  float: left;
+  width: 30%;
+  text-align: justify;
+}
+
+.column h2{
+  text-align: center;
+
 }
  
-
-  /* @media screen and (min-width: 480px) and (max-width: 767px) {
-    body {
-        background-color: black;
-        color: white;
-    }
-    .cols{
+ @media screen and (max-width: 630px) {
+    .sect3{
         display: block;
     }
-}
- @media screen and (min-width: 768px) {
-  body {
-    background-color: grey;
-  }
-  .column {
-    width: 30%;
-    float: left;
-    padding: 2px;
-  } */ 
+    .column{
+      width: 90%;
+      background-color: cornsilk;
+      border: 2px dotted black;
+    }
+  } 
