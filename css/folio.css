@@ -148,7 +148,7 @@ li{
   }
 } 
 
-#holla{
+.hollaz{
   background-color: #580F0A;
   width: 100%;
   height: auto;
@@ -164,7 +164,7 @@ li{
 }
 
 @media screen and (max-width: 720px) and (min-width: 200px) {
-  #holla{
+  .hollaz{
       display: flex;
       flex-direction: column;
       justify-content: center;
