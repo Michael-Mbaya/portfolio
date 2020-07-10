@@ -1,22 +1,31 @@
-# portfolio
-#### {Brief description of application}, {Date of current version}
-#### By **{List of contributors}**
+# Portfolio
+
+#### A personal professional site of the author's Portfolio.
+
+#### By **Michael-Mbaya**
+
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+A HTML and CSS built site showing the author's Portfolio and lists of projects done by the author.
+The Contacts are available for enquiries as well as proposals.
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+* Fork this Repository
+* Run it on gh-pages or your own domain
+* You Require an internet connection and device
+* Also require git installed in your device.
+* And a code editor, like visual Studio, of your liking
+* No other dependencies
+
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+No known Bugs as of yet
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+HTML & CSS
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+For any issues and enquiries feel free to use the following Contact email:
+gikundamike@gmail.com
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
-  
+* The license under which this application can be used is the
+* GNU GENERAL PUBLIC LICENSE
+* The licence can be read on the description in the repository.
+
+
+##Copyright (c) *2020  
