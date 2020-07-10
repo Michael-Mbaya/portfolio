@@ -28,4 +28,4 @@ gikundamike@gmail.com
 * The licence can be read on the description in the repository.
 
 
-##Copyright (c) *2020  
+ * Copyright (c) *2020  
