@@ -5,11 +5,14 @@ body{
     top: 0px;
     height: 100%;
     width: 100%;
+    overflow: scroll;
 }
 
 .nav{
   overflow: hidden;
-  background-color: #333;
+  background-color: #580F0A;
+  position: static;
+  width: 100%;
 }
 
 .nav a{
@@ -39,10 +42,6 @@ body{
       width: 100%;
   }
 } 
-
-.name{
-  position: relative;
-}
 
 .name h1{
   text-align: center;
@@ -149,3 +148,52 @@ li{
   }
 } 
 
+#holla{
+  background-color: #580F0A;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.foot p{
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 720px) and (min-width: 200px) {
+  #holla{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+  }
+  .foot{
+    padding: 10px 0px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .fon{
+    display: none;
+  }
+}
+
+.foot a:visited{
+  color: lightskyblue;
+  opacity: 1;
+}
+
+.foot a:hover {
+  background-color:#580F0A;
+  color: blue;
+  opacity: 1;
+}
+
+.foot a:active {
+  background-color:lightgreen;
+  color: white;
+  opacity: 1;
+}
