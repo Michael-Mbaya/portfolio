@@ -3,8 +3,9 @@
 }
 
 body{
-    width: 100vw;
-    overflow-x: auto;
+    /* width: 100vw;
+    overflow-x: hidden; */
+    background-image: url("../assets/img/bg_body_phones.png");
 }
 
 i{
@@ -17,10 +18,9 @@ header {
 }
 
 header {
-  background-image: url("../assets/img/developer-guide-blog-2.png");
-  /* background-image: url("../assets/img/mobi-apps.jpg"); */
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-image: url("../assets/img/developer-guide-blog-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header div h1,
@@ -37,6 +37,10 @@ header div h1,
   font-size: xx-large;
 }
 
+/* #about{
+    background-image: url("../assets/img/net-black-dots.jpg");
+} */
+
 .violet {
   /* font-weight: bold; */
   text-align: center;
@@ -44,7 +48,7 @@ header div h1,
   text-transform: uppercase;
 }
 
-.flexy{
+.flexy, .flexy-skills{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -66,4 +70,44 @@ header div h1,
 .serve-describe p:first-child{
     font-weight: bolder;
     font-size: larger;
+}
+
+@media(max-width:768px){
+    .flexy, .flexy-skills{
+        flex-direction: column;
+        text-align: center;
+    }
+    .serve-describe p{
+        text-align: center;
+    }
+}
+
+.con{
+    width: 400px;
+}
+
+.carousel-item img{
+    height: 240px;
+    width: 240px;
+}
+
+.op{
+    opacity: 1;
+}
+
+.bg-new{
+    position: relative;
+    top: -120px;
+    color: darkmagenta;
+}
+
+.bg-boots{
+    position: relative;
+    top: 18px;
+}
+
+.bg-newer{
+    position: relative;
+    top: -120px;
+    text-align: center;
 }
