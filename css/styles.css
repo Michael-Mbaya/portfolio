@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    overflow-x: auto;
+}
+
+i{
+    padding: 5px;
+}
+
+nav,
+header {
+  overflow: hidden;
+}
+
+header {
+  background-image: url("../assets/img/developer-guide-blog-2.png");
+  /* background-image: url("../assets/img/mobi-apps.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header div h1,
+.lead {
+  opacity: 1;
+  font-weight: bolder;
+}
+
+#me {
+    font-size: 45px;
+}
+
+.lead {
+  font-size: xx-large;
+}
+
+.violet {
+  /* font-weight: bold; */
+  text-align: center;
+  color: palevioletred;
+  text-transform: uppercase;
+}
+
+.flexy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-serve{
+    flex: 25%;
+}
+
+.serve-describe{
+    flex: 75%;
+}
+
+.serve-describe p{
+    margin: 5px;
+}
+
+.serve-describe p:first-child{
+    font-weight: bolder;
+    font-size: larger;
+}
