@@ -15,7 +15,8 @@ i {
 nav,
 div,
 section,
-header {
+header,
+footer {
   overflow: hidden;
 }
 
@@ -139,6 +140,10 @@ header div h1,
   margin-bottom: 10px;
 }
 
+.getMe p i{
+  font-size: large;
+}
+
 .getMeIcons a i:hover {
   font-size: 42px;
   color: blue;
@@ -146,7 +151,7 @@ header div h1,
 
 .getMeIcons a i {
   font-size: 30px;
-  padding: 5px 5px;
+  padding: 0px 5px;
   color: azure;
   cursor: pointer;
 }
