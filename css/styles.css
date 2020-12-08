@@ -115,3 +115,14 @@ header div h1,
   top: -120px;
   text-align: center;
 }
+
+.proDescribe h5{
+  font-weight: bolder;
+  font-size: larger;
+
+}
+
+.proImage{
+  height: 200px;
+  width: 350px;
+}
