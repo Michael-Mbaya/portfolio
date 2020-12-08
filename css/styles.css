@@ -116,18 +116,37 @@ header div h1,
   text-align: center;
 }
 
-.proDescribe h5{
+.proDescribe h5 {
   font-weight: bolder;
   font-size: larger;
-
 }
 
-.proDescribe p{
+.proDescribe p {
   padding: 10px;
   margin: 5px;
 }
 
-.proImage{
+.proImage {
   height: 200px;
   width: 350px;
+}
+
+.footHeads {
+  color: white;
+}
+
+.getMe p {
+  margin-bottom: 10px;
+}
+
+.getMeIcons a i:hover {
+  font-size: 42px;
+  color: blue;
+}
+
+.getMeIcons a i {
+  font-size: 30px;
+  padding: 5px 5px;
+  color: azure;
+  cursor: pointer;
 }
