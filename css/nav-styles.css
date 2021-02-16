@@ -32,7 +32,7 @@
         text-align: center;
         font-size: larger;
     }
-    /* .brackets a:before {
+    .brackets a:before {
         content: '';
         left: 0px;
         transform: translateX(10px);
@@ -41,10 +41,5 @@
         content: '';
         right: 0px;
         transform: translateX(-10px);
-    } */
-}
-
-.mylogo {
-    height: 50px;
-    width: 50px;
+    }
 }

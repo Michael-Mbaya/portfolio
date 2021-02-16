@@ -1,157 +1,158 @@
-* {
-  box-sizing: border-box;
-}
+/* * {
+    box-sizing: border-box;
+} */
 
 body {
-  width: 100vw;
-  overflow-x: hidden;
-  background-image: url("../assets/img/bg_body_phones.png");
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    background-image: url("../assets/img/bg_body_phones.png");
+}
+
+.mylogo {
+    height: 35px;
+    width: 35px;
+    /* padding: 3px; */
+}
+
+#portfolio {
+    height: auto;
+    width: 100%;
 }
 
 i {
-  padding: 5px;
-}
-
-nav,
-div,
-section,
-header,
-footer {
-  overflow: hidden;
+    padding: 5px;
 }
 
 header {
-  background-image: url("../assets/img/developer-guide-blog-2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-image: url("../assets/img/developer-guide-blog-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header div h1,
 .lead {
-  opacity: 1;
-  font-weight: bolder;
+    opacity: 1;
+    font-weight: bolder;
 }
 
 #me {
-  font-size: 45px;
+    font-size: 45px;
 }
 
 .lead {
-  font-size: xx-large;
+    font-size: xx-large;
 }
 
-/* #about{
-    background-image: url("../assets/img/net-black-dots.jpg");
-} */
-
 .violet {
-  /* font-weight: bold; */
-  text-align: center;
-  color: palevioletred;
-  text-transform: uppercase;
+    /* font-weight: bold; */
+    text-align: center;
+    color: palevioletred;
+    text-transform: uppercase;
 }
 
 .flexy,
 .flexy-skills {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .img-serve {
-  flex: 25%;
+    flex: 25%;
 }
 
 .serve-describe {
-  flex: 75%;
+    flex: 75%;
 }
 
 .serve-describe p {
-  margin: 5px;
+    margin: 5px;
 }
 
 .serve-describe p:first-child {
-  font-weight: bolder;
-  font-size: larger;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 @media (max-width: 768px) {
-  .flexy,
-  .flexy-skills {
-    flex-direction: column;
-    text-align: center;
-  }
-  .serve-describe p {
-    text-align: center;
-  }
+    .flexy,
+    .flexy-skills {
+        flex-direction: column;
+        text-align: center;
+    }
+    .serve-describe p {
+        text-align: center;
+    }
 }
 
 .con {
-  width: 400px;
+    width: 400px;
 }
 
 .carousel-item img {
-  height: 240px;
-  width: 240px;
-}
-
-.op {
-  opacity: 1;
+    height: 240px;
+    width: 240px;
 }
 
 .bg-new {
-  position: relative;
-  top: -120px;
-  color: darkmagenta;
+    position: relative;
+    top: -20px;
+}
+
+.bg-boots-script {
+    position: relative;
+    top: 19px;
 }
 
 .bg-boots {
-  position: relative;
-  top: 18px;
-}
-
-.bg-newer {
-  position: relative;
-  top: -120px;
-  text-align: center;
+    position: relative;
+    top: 15px;
 }
 
 .proDescribe h5 {
-  font-weight: bolder;
-  font-size: larger;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .proDescribe p {
-  padding: 10px;
-  margin: 5px;
+    padding: 10px;
+    margin: 5px;
 }
 
 .proImage {
-  height: 200px;
-  width: 350px;
+    height: 200px;
+    width: 350px;
 }
 
 .footHeads {
-  color: white;
+    color: white;
 }
 
 .getMe p {
-  margin-bottom: 10px;
+    margin: 5px 0px;
 }
 
-.getMe p i{
-  font-size: large;
+.getMe p i {
+    font-size: large;
 }
 
 .getMeIcons a i:hover {
-  font-size: 42px;
-  color: blue;
+    font-size: 42px;
+    color: blue;
 }
 
 .getMeIcons a i {
-  font-size: 30px;
-  padding: 0px 5px;
-  color: azure;
-  cursor: pointer;
+    font-size: 30px;
+    padding: 0px 5px;
+    color: azure;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .col-sm h5 {
+        margin: 5px 0px;
+        padding: 5px 0px;
+    }
 }
