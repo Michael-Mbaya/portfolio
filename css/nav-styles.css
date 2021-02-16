@@ -1,6 +1,7 @@
 /* Brackets go out */
 
-.brackets a:before,
+
+/* .brackets a:before,
 .brackets a:after {
     position: relative;
     opacity: 0;
@@ -42,4 +43,4 @@
         right: 0px;
         transform: translateX(-10px);
     }
-}
+} */

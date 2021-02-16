@@ -9,6 +9,15 @@ body {
     background-image: url("../assets/img/bg_body_phones.png");
 }
 
+header {
+    width: 100%;
+    padding: 100px 0 100px;
+}
+
+section {
+    padding: 30px 0;
+}
+
 .mylogo {
     height: 35px;
     width: 35px;
