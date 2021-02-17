@@ -139,23 +139,37 @@ header div h1,
     color: white;
 }
 
+.getMeDiv {
+    text-align: justify;
+}
+
 .getMe p {
     margin: 5px 0px;
 }
 
 .getMe p i {
-    font-size: large;
+    font-size: 24px;
+    margin: 0px 5px;
+    padding: 0px 5p;
+}
+
+.getMeIcons {
+    width: fit-content;
+    padding: 5px;
 }
 
 .getMeIcons a i:hover {
-    font-size: 42px;
+    font-size: 36px;
+}
+
+.getMeIcons a {
     color: blue;
+    text-decoration: none;
 }
 
 .getMeIcons a i {
     font-size: 30px;
-    padding: 0px 5px;
-    color: azure;
+    padding: 5px;
     cursor: pointer;
 }
 
