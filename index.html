@@ -12,8 +12,10 @@
     <link rel=" apple-touch-icon " href="favicon.svg" type="image/png " />
     <!-- font-awesome -->
     <link rel=" stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ">
+    <!-- <link rel="stylesheet" href="css/scroll-animation.css"> -->
+    <link rel="stylesheet" href="css/aos.css">
     <!-- Bootstrap core CSS -->
-    <link href="assets/bootstrap/css/bootstrap.min.css " rel="stylesheet ">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet ">
     <!-- Custom styles -->
     <link href="css/nav-styles.css" rel="stylesheet ">
     <link href="css/styles.css" rel="stylesheet ">
@@ -113,8 +115,9 @@
 
             <!-- the 4 Services -->
             <div class="my-4 ">
-                <div class="row justify-content-center align-items-center ">
-                    <div class="col-md-4 ">
+                <div class="row justify-content-center align-items-center py-2">
+                    <!-- <div class="col-md-4" data-san="slideRight" data-san-delay="600"> -->
+                    <div class="col-md-4" data-aos="fade-right" data-aos-delay="100" data-aos-duration="750" data-aos-easing="ease-in-out-sine">
                         <div class="flexy ">
                             <div class="img-serve ">
                                 <img src="assets/img/web_development.svg " alt=" ">
@@ -125,7 +128,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 ">
+                    <!-- <div class="col-md-4 " data-san="slideLeft" data-san-delay="600"> -->
+                    <div class="col-md-4 " data-aos="fade-left" data-aos-delay="100" data-aos-duration="750" data-aos-easing="ease-in-out-sine">
                         <div class="flexy ">
                             <div class="img-serve ">
                                 <img src="assets/img/api_development.svg " alt=" ">
@@ -137,8 +141,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center align-items-center ">
-                    <div class="col-md-4 ">
+                <div class="row justify-content-center align-items-center py-2">
+                    <!-- <div class="col-md-4 " data-san="slideRight" data-san-delay="600"> -->
+                    <div class="col-md-4 " data-aos="fade-right" data-aos-delay="100" data-aos-duration="750" data-aos-easing="ease-in-out-sine">
                         <div class="flexy ">
                             <div class="img-serve ">
                                 <img src="assets/img/app_development.svg " alt=" ">
@@ -149,7 +154,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 ">
+                    <!-- <div class="col-md-4 " data-san="slideLeft" data-san-delay="600"> -->
+                    <div class="col-md-4 " data-aos="fade-left" data-aos-delay="100" data-aos-duration="750" data-aos-easing="ease-in-out-sine">
                         <div class="flexy ">
                             <div class="img-serve ">
                                 <img src="assets/img/ui_ux.svg " alt=" ">
@@ -164,7 +170,7 @@
             </div>
 
             <!-- Skills, Languages, Tools and Frameworks + carousel -->
-            <div class="container-fluid row justify-content-around">
+            <div class="container-fluid row justify-content-around my-3 py-3">
 
                 <!-- Skills apply description -->
                 <div class="col-md-7  ">
@@ -366,7 +372,7 @@
                 <div class="col-sm col-md col-lg text-center text-white ">
                     <h5 class=" text-capitalize font-weight-bolder">follow me</h5>
                     <div class=" row justify-content-center">
-                        <div class="getMeIcons bg-light rounded-pill">
+                        <div class="getMeIcons ">
                             <a target="_blank " href="https://www.linkedin.com/in/michael-mbaya-gikunda-4337b6124/">
                                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                             </a>
@@ -374,7 +380,7 @@
                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                             </a>
                             <a target="_blank " href="https://github.com/Michael-Mbaya">
-                                <i class="fa fa-github text-dark" aria-hidden="true"></i>
+                                <i class="fa fa-github text-light" aria-hidden="true"></i>
                             </a>
                             <a target="_blank " href="https://www.facebook.com/MickeyG.Mbaya/">
                                 <i class="fa fa-facebook-f" aria-hidden="true"></i>
@@ -398,6 +404,11 @@
 
     </div>
 
+    <!-- <script src="js/scroll-animation.js"></script> -->
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- jQery, Popper and Bootstrap JavaScript and Plugins-->
     <script src="js/jquery/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
