@@ -23,6 +23,10 @@ section {
     /* height: 100vh; */
 }
 
+hr {
+    margin: 5px 0px;
+}
+
 .mylogo {
     height: 35px;
     width: 35px;
